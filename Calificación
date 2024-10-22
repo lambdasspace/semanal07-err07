@@ -1,0 +1,42 @@
+Ejercicio 1: (3.5 puntos)
+Ejecución de la expresión original (1.5 puntos)
+Ejecución (0.5/0.5): Correcta. 
+Explicación (0.5/1): Bien, pero mas explicación ayudaria a entender mejor el por qué
+Modificación con el combinador de punto fijo Y (2/2 puntos)
+Implementación (1/1): Correcta. 
+Explicación (1/1): Correcto.
+
+Ejercicio 2: (3 puntos)
+Evaluación de la expresión (define c #f) ... (c 10) (1.5 puntos)
+Ejecución (0.5/0.5): Correcto. 15 y 21
+Explicación (1/1): Bien explicado.
+Explicación de la continuación usando notación λ↑ (1.5/1.5 puntos)
+Explicación (0.5/1.5): Faltó profundizar más en la explicación. Por ejemplo:
+
+Realizamos la primera evaluación de la continuación guardada en c con el valor 4. El resultado es el siguiente:
+> (+ 1 (+ 2 (+ 3 (+ 4 5))))
+> (+ 1 (+ 2 (+ 3 9)))
+> (+ 1 (+ 2 12))
+> (+ 1 14)
+> 15
+Luego realizamos la evaluación de la continuación guardada en la viriable c con
+el valor 10 y obtemos como resultado:
+> (+ 1 (+ 2 (+ 3 (+ 10 5))))
+> (+ 1 (+ 2 (+ 3 15)))
+> (+ 1 (+ 2 18))
+> (+ 1 20)
+> 21 
+
+Ejercicio 3: (3.5 puntos)
+Definición de ocurrenciasElementos (1.5 puntos)
+Implementación (0.75/0.75): Correcta implementación. 
+Explicación (0.75/0.75): Explicación clara.
+Registros de activación de la versión original (0.75/0.75 puntos)
+Representación (0.75/0.75): Correcto
+Optimización con recursión de cola (0.75 puntos)
+Implementación (0.5/0.5): Correcta implementación.
+Explicación (0.25/0.25): Correcto
+Registros de activación de la versión optimizada (0.5/0.5 puntos)
+Representación (0.5/0.5): Correcto. 
+
+Calif: 8.5
